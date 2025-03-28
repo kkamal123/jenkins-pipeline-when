@@ -10,9 +10,9 @@ pipeline {
             steps{
                
                 //Fisrt, drop the directory if exists
-                sh 'rm -rf /home/jenkins/app-web'
+                sh 'rm -rf /Users/kkamal/jenkins-macOS/app-web'
                 //Create the directory
-                sh 'mkdir /home/jenkins/app-web'
+                sh 'mkdir /Users/kkamal/jenkins-macOS/app-web'
                 
             }
         }
